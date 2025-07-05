@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(2) YouTube Clone</title>
+    <link rel="icon" href="icons/youtube-favicon-logo.png" size="32x32" type="image/png"> <!-- favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/shorts.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <div class="hamburger-menu-div">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            </div>
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <div class="notifications-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">
+                        2
+                    </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+            </div>
+            <img class="current-user-picture" src="channel-pictures/my-pic.jpg">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link"><img src="icons/home.svg"><div>Home</div></div>
+        <div class="sidebar-link"><img src="icons/explore.svg"><div>Explore</div></div>
+        <div class="sidebar-link"><img src="icons/subscriptions.svg"><div>Subscriptions</div></div>
+        <div class="sidebar-link"><img src="icons/originals.svg"><div>Originals</div></div>
+        <div class="sidebar-link"><img src="icons/youtube-music.svg"><div>Youtube Music</div></div>
+        <div class="sidebar-link"><img src="icons/library.svg"><div>Library</div></div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/AgyTHzjBS-c?si=HAh2OGngIbWJZHRA">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.avif">
+                    </a>
+                        <a target="_blank" href="https://youtu.be/AgyTHzjBS-c?si=HAh2OGngIbWJZHRA">
+                            <div class="video-time">
+                                9:57
+                            </div>
+                        </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@ApnaCollegeOfficial">
+                            <img class="profile-picture" src="channel-pictures/pic-1.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/AgyTHzjBS-c?si=HAh2OGngIbWJZHRA">
+                                How much Coding to learn for Placements? Data Structure & Algorithms
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@ApnaCollegeOfficial">
+                                        Apna College
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/AgyTHzjBS-c?si=HAh2OGngIbWJZHRA">
+                                2.1M Views &#183; 3 years ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=YXK2b9hYl2dlAnS7">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.avif">
+                    </a>
+                        <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=YXK2b9hYl2dlAnS7">
+                            <div class="video-time">
+                                6:31:24
+                            </div>
+                        </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@SuperSimpleDev">
+                            <img class="profile-picture" src="channel-pictures/pic-2.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=YXK2b9hYl2dlAnS7">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@SuperSimpleDev">
+                                        SuperSimpleDev
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=YXK2b9hYl2dlAnS7">
+                                15M Views &#183; 3 years ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=aEzjOr5Ydm0">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.avif">
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=aEzjOr5Ydm0">
+                        <div class="video-time">
+                            7:35
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@TharunSpeaks">
+                            <img class="profile-picture" src="channel-pictures/pic-3.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=aEzjOr5Ydm0">
+                                LOCK IN NOW - MAKE 2025 the best year of your life 🔥
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@TharunSpeaks">
+                                        Tharun Speaks
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=aEzjOr5Ydm0">
+                                114K Views &#183; 21 hours ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shorts">
+            <div class="shorts-section">
+                <div>
+                    <img class="youtube-shorts-icon" src="icons/youtube-shorts-icon.png">
+                </div>
+                <p class="shorts-text">
+                    Shorts
+                </p>
+            </div>
+            <div class="shorts-grid">
+                <div class="shorts-preview">
+                    <div class="shorts-thumbnail-row"> 
+                        <a target="_blank" href="https://www.youtube.com/shorts/k1Zbqmil65s">
+                            <img class="shorts-thumbnail" src="thumbnails/shorts-thumbnail-1.avif">
+                        </a>
+                    </div>
+                    <div class="shorts-info">
+                        <p class="shorts-video-title">
+                            <a target="_blank" href="https://www.youtube.com/shorts/k1Zbqmil65s">
+                                ✨✨The Biggest Lesson by Lord Krishna to have success in life
+                            </a>
+                        </p>
+                        <p class="shorts-video-stats">
+                            <a target="_blank" href="https://www.youtube.com/shorts/k1Zbqmil65s">
+                                1M views
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="shorts-preview">
+                    <div class="shorts-thumbnail-row"> 
+                        <a target="_blank" href="https://www.youtube.com/shorts/RuY_qlHDCA0">
+                            <img class="shorts-thumbnail" src="thumbnails/shorts-thumbnail-2.avif">
+                        </a>
+                    </div>
+                    <div class="shorts-info">
+                        <p class="shorts-video-title">
+                            <a target="_blank" href="https://www.youtube.com/shorts/RuY_qlHDCA0">
+                                Train your mind 🗿 | COLD | #youtubeshorts #shorts #successmindset
+                            </a>
+                        </p>
+                        <p class="shorts-video-stats">
+                            <a target="_blank" href="https://www.youtube.com/shorts/RuY_qlHDCA0">
+                                10M views
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="shorts-preview">
+                    <div class="shorts-thumbnail-row"> 
+                        <a target="_blank" href="https://www.youtube.com/shorts/TE-yPGbOfJE">
+                            <img class="shorts-thumbnail" src="thumbnails/shorts-thumbnail-3.avif">
+                        </a>
+                    </div>
+                    <div class="shorts-info">
+                        <p class="shorts-video-title">
+                            <a target="_blank" href="https://www.youtube.com/shorts/TE-yPGbOfJE">
+                                Look at them before you give up! | BB | #youtubeshorts #shorts #successmindset
+                            </a>
+                        </p>
+                        <p class="shorts-video-stats">
+                            <a target="_blank" href="https://www.youtube.com/shorts/TE-yPGbOfJE">
+                                4.2M views
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="shorts-preview">
+                    <div class="shorts-thumbnail-row"> 
+                        <a target="_blank" href="https://www.youtube.com/shorts/QaU6gEtOwyE">
+                            <img class="shorts-thumbnail" src="thumbnails/shorts-thumbnail-4.avif">
+                        </a>
+                    </div>
+                    <div class="shorts-info">
+                        <p class="shorts-video-title">
+                            <a target="_blank" href="https://www.youtube.com/shorts/QaU6gEtOwyE">
+                                Roadmap to Web Development | for Students
+                            </a>
+                        </p>
+                        <p class="shorts-video-stats">
+                            <a target="_blank" href="https://www.youtube.com/shorts/QaU6gEtOwyE">
+                                1M views
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="shorts-preview">
+                    <div class="shorts-thumbnail-row"> 
+                        <a target="_blank" href="https://www.youtube.com/shorts/DzyMVk9Jazs">
+                            <img class="shorts-thumbnail" src="thumbnails/shorts-thumbnail-5.avif">
+                        </a>
+                    </div>
+                    <div class="shorts-info">
+                        <p class="shorts-video-title">
+                            <a target="_blank" href="https://www.youtube.com/shorts/DzyMVk9Jazs">
+                                Amazing ChatGPT Trick 🔥
+                            </a>
+                        </p>
+                        <p class="shorts-video-stats">
+                            <a target="_blank" href="https://www.youtube.com/shorts/DzyMVk9Jazs">
+                                2.4M views
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/dcwHfar4y04?si=TbKxcniJTFYObjYj">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.avif">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/dcwHfar4y04?si=TbKxcniJTFYObjYj">
+                        <div class="video-time">
+                            8:29
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@GeeksforGeeksVidoes">
+                            <img class="profile-picture" src="channel-pictures/pic-4.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/dcwHfar4y04?si=TbKxcniJTFYObjYj">
+                                What To Do In College 3rd Year? | B.Tech 3rd Year Complete Roadmap
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@GeeksforGeeksVidoes">
+                                        GeeksforGeeks
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/dcwHfar4y04?si=TbKxcniJTFYObjYj">
+                                20k Views &#183; 3 days ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/8HiWKbDTc7w?si=YqIk1ghmdY8-m92S">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.avif">
+                    </a>
+                        <a target="_blank" href="https://youtu.be/8HiWKbDTc7w?si=YqIk1ghmdY8-m92S">
+                            <div class="video-time">
+                                3:04
+                            </div>
+                        </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@WorldOfRamayana">
+                            <img class="profile-picture" src="channel-pictures/pic-5.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/8HiWKbDTc7w?si=YqIk1ghmdY8-m92S">
+                                Namit Malhotra's Ramayana: The Introduction | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & AR Rahman
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@WorldOfRamayana">
+                                        World of Ramayana
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/8HiWKbDTc7w?si=YqIk1ghmdY8-m92S">
+                                2.9M Views &#183; 5 hours ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/HDXpGgieFDg?si=T-_LoPDBtJIuixiT">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.avif">
+                    </a>
+                        <a target="_blank" href="https://youtu.be/HDXpGgieFDg?si=T-_LoPDBtJIuixiT">
+                            <div class="video-time">
+                                13:07
+                            </div>
+                        </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@CodeWithHarry">
+                            <img class="profile-picture" src="channel-pictures/pic-6.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/HDXpGgieFDg?si=T-_LoPDBtJIuixiT">
+                                What Do Software Engineers Actually Do? (It’s Not What You Think)
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@CodeWithHarry">
+                                        CodeWithHarry
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/HDXpGgieFDg?si=T-_LoPDBtJIuixiT">
+                                265K Views · 7 months ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/JgDNFQ2RaLQ?si=HnetDo_yFSlRKqxK">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.avif">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/JgDNFQ2RaLQ?si=HnetDo_yFSlRKqxK">
+                        <div class="video-time">
+                            3:04
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A">
+                            <img class="profile-picture" src="channel-pictures/pic-7.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/JgDNFQ2RaLQ?si=HnetDo_yFSlRKqxK">
+                                Ed Sheeran - Sapphire (Official Music Video)
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A">
+                                        Ed Sheeran
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/JgDNFQ2RaLQ?si=HnetDo_yFSlRKqxK">
+                                97M Views · 4 weeks ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/Nx4bvwU0DqE?si=gZY2ZWODelgu2pSO">
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.avif">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/Nx4bvwU0DqE?si=gZY2ZWODelgu2pSO">
+                        <div class="video-time">
+                            8:45
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@ashishps_1">
+                            <img class="profile-picture" src="channel-pictures/pic-8.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/Nx4bvwU0DqE?si=gZY2ZWODelgu2pSO">
+                                How to Start Leetcode (as a beginner)
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@ashishps_1">
+                                        Ashish Pratap Singh
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/Nx4bvwU0DqE?si=gZY2ZWODelgu2pSO">
+                                1.2M Views · 1 year ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=yWnn5yC4RxXlsvGU">
+                        <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                    </a>
+                        <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=yWnn5yC4RxXlsvGU">
+                            <div class="video-time">
+                                14:20
+                            </div>
+                        </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@mkbhd">
+                            <img class="profile-picture" src="channel-pictures/pic-9.jpeg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=yWnn5yC4RxXlsvGU">
+                                Talking Tech and AI with Google CEO Sundar Pichai!
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@mkbhd">
+                                        Marques Brownlee
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=yWnn5yC4RxXlsvGU">
+                                3.4M views &#183; 6 months ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/mP0RAo9SKZk?si=Vh-pCTcTFGoFrw3U">
+                        <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/mP0RAo9SKZk?si=Vh-pCTcTFGoFrw3U">
+                        <div class="video-time">
+                            8:22
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@markiplier">
+                            <img class="profile-picture" src="channel-pictures/pic-10.jpeg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/mP0RAo9SKZk?si=Vh-pCTcTFGoFrw3U">
+                                Try Not To Laugh Challenge #9
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@markiplier">
+                                        Markiplier
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/mP0RAo9SKZk?si=Vh-pCTcTFGoFrw3U">
+                                19M views &#183; 4 years ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/86CQq3pKSUw?si=jvAyuLhVmkESr_ZT">
+                        <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/86CQq3pKSUw?si=jvAyuLhVmkESr_ZT">
+                        <div class="video-time">
+                            11:16
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@CSDojo">
+                            <img class="profile-picture" src="channel-pictures/pic-11.jpeg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/86CQq3pKSUw?si=jvAyuLhVmkESr_ZT">
+                                Kadane's Algorithm to Maximum Sum Subarray Problem
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@CSDojo">
+                                        CS Dojo
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/JgDNFQ2RaLQ?si=HnetDo_yFSlRKqxK">
+                                519K views &#183; 5 years ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a target="_blank" href="https://youtu.be/094y1Z2wpJg?si=PDDOhQ_zT1HI1M3r">
+                        <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                    </a>
+                    <a target="_blank" href="https://youtu.be/094y1Z2wpJg?si=PDDOhQ_zT1HI1M3r">
+                        <div class="video-time">
+                            22:09
+                        </div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a target="_blank" href="https://www.youtube.com/@veritasium">
+                            <img class="profile-picture" src="channel-pictures/pic-12.jpeg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a target="_blank" href="https://youtu.be/094y1Z2wpJg?si=PDDOhQ_zT1HI1M3r">
+                                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                            </a>
+                        </p>
+                            <p class="video-author">
+                                <a target="_blank" href="https://www.youtube.com/@veritasium">
+                                        Veritasium
+                                </a>
+                            </p>
+                        <p class="video-stats">
+                            <a target="_blank" href="https://youtu.be/094y1Z2wpJg?si=PDDOhQ_zT1HI1M3r">
+                                18M views &#183; 4 months ago
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
