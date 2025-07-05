@@ -6,7 +6,7 @@ This project replicates the structure and styling of YouTube's main interface �
 ---
 
 ## 🚀 Live Preview
-👉 [View Live Project](https://your-netlify-or-github-pages-link.com)
+👉 [View Live Project](https://atharvak2908.github.io/youtube-clone/)
 
 ---
 
